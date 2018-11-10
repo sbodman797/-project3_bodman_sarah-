@@ -136,6 +136,21 @@ nav ul li a:hover{
 	color: #ffffff;
 }
 
+.image-grid{
+	display:flex;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+
+figure {
+	width: 100%;
+	padding: 0% .25% 0% .25%;
+}
+
+img {
+	max-width: 100%;
+}
+
 /* NOW SUB PAGES */
 
 #h1sub{
@@ -159,6 +174,10 @@ nav ul li a:hover{
 	#intro{
 		width:70%;
 	}
+
+	figure {
+		width: 49%;
+	}
 }
 
 @media (min-width: 600px){
@@ -170,6 +189,10 @@ nav ul li a:hover{
 @media (min-width: 700px){
 	#intro{
 		width:50%;
+	}
+
+	figure {
+		width: 24%;
 	}
 }
 
