@@ -17,11 +17,11 @@ h1{
 }
 
 
-p{
+p, a{
 	font-family: 'Open Sans', sans-serif;
 }
 
-#container{
+#containerhome{
 	max-width: 1000px;
 	margin: auto;
 	background-image: url(images/sleeping-red-panda.jpg);
@@ -30,6 +30,11 @@ p{
     background-size: cover;
     height: 100vh;
     border: solid 1px #cccccc;
+}
+
+#container{
+	max-width: 1000px;
+	margin: auto;
 }
 
 
@@ -84,12 +89,10 @@ nav ul li a:hover{
     height: 100%;
 }
 
-
-
-
-main{
+#mainhome{
 	padding-top: 350px;
 }
+
 
 #intro{
 	color: #A8A7A7;
@@ -104,6 +107,14 @@ main{
 #h1home{
 	color:#F22525;
 	padding-bottom: 5%;
+	text-align: center;
+}
+
+#h1sub{
+	background-color: #F22525;
+	color:#ffffff;
+	text-align: center;
+	padding: .5%;
 }
 
 .button{
@@ -114,6 +125,31 @@ main{
 	margin:auto;
 	margin-top: 4%;
 }
+
+.button a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.button:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/* NOW SUB PAGES */
+
+#h1sub{
+	background-color: #F22525;
+	color:#ffffff;
+	text-align: center;
+	padding: .5%;
+}
+
+#mainsub p{
+	padding: 3%;
+}
+
+
 
 @media (min-width: 500px){
 	nav ul{ 
