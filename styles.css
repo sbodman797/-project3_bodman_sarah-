@@ -176,9 +176,22 @@ img {
 	color:#ffffff;
 	text-align: center;
 	padding: .5%;
-	margin-bottom: 2%
+	margin-bottom: 2%;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: title;
+    animation-duration: 4s;
 }
 
+@-webkit-keyframes title{
+    from {background-color: #F22525;}
+    to {background-color: #000000;}
+}
+
+@keyframes title {
+    from {background-color: #F22525;}
+    to {background-color: #000000;}
+}
 
 section p, section h3, #mainsub h2, main p{
 	padding: 0% 3% 0% 3%;
