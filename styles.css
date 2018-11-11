@@ -12,8 +12,23 @@ h1, h2, h3, h4, h5, h6, li{
 	font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, li, p{
+	font-weight: 400;
+}
+
 h1{
 	font-size: 1.5rem;
+}
+
+h2{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 1rem;
+	font-weight: 500;
+	color: #F22525;
 }
 
 
@@ -35,8 +50,8 @@ p, a{
 #container{
 	max-width: 1000px;
 	margin: auto;
+	border: solid 1px #cccccc;
 }
-
 
 header{
 	background-color: #ffffff;
@@ -140,6 +155,7 @@ nav ul li a:hover{
 	display:flex;
 	flex-wrap: wrap;
 	margin-top: 5%;
+	justify-content: center;
 }
 
 figure {
@@ -151,6 +167,8 @@ img {
 	max-width: 100%;
 }
 
+
+
 /* NOW SUB PAGES */
 
 #h1sub{
@@ -158,12 +176,22 @@ img {
 	color:#ffffff;
 	text-align: center;
 	padding: .5%;
+	margin-bottom: 2%
 }
 
-#mainsub p{
-	padding: 3%;
+
+section p, section h3, #mainsub h2, main p{
+	padding: 0% 3% 0% 3%;
 }
 
+section h3, #mainsub h2{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#aboutimg{
+	margin-top: 3%;
+}
 
 
 @media (min-width: 500px){
